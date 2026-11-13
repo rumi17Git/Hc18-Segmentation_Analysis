@@ -16,7 +16,7 @@ Measured on a held-out test split that was never used for training or model sele
 | Cases within 3 mm | 83.2 % |
 | Failed measurements | 0 |
 
-![Training curves](results/curves.png)
+![Training curves](results/Training_curves.png)
 
 ## Data
 
@@ -62,7 +62,7 @@ I looked at the worst test cases ranked two ways: by Dice and by HC error in mm.
 
 ### Error and head size
 
-![Error vs head size](results/error_vs_size.png)
+![Error vs head size](results/error_and_headsize.png)
 
 Absolute error in mm grows with head size, with the largest errors all on heads over 270 mm. Relative error does the opposite: it is highest on small heads (up to about 6 %) and lowest on large ones.
 
